@@ -1,0 +1,188 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2, h3, h4 {
+    color: #c83f75;
+}
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    min-height: 120vh;
+}
+
+.mainheader {
+    display:flex;
+    align-items: center;
+    max-height: 20vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e8e5df;
+    color: azure;
+    padding: 5vw;
+    border-radius: 10px;
+}
+
+.mainheader h1 {
+
+    font-size: max(1.7vh, 3.2vw);
+}
+
+.mainheader p {
+    font-size: max(1.0vh, 2.0vw);   
+}
+
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #dad2bf;
+    flex: 1;
+    margin: 2.5px 2.5px;
+    border-radius: 10px;
+
+
+}
+  
+.picturerow {
+    display: flex;
+    flex-direction: column;
+    flex: 25%;
+    border-radius: 10px;
+
+}
+
+
+.picture {
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 10%;
+
+}
+
+.picture > img {
+    border-radius: 20px;
+
+}
+
+
+.mainrow {
+    display: flex;
+    flex: 75%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #dad2bf;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.mainrowbox {
+    background-color: #4d465fe2;
+    border-radius: 20px;
+    padding: 10%;
+    margin: 5% 20% 4% 2.5%;
+    min-width: 80%;
+}
+
+.mainrow p {
+    padding-bottom: 15px;
+}
+
+
+/* alles bis hier ist bisher richtig gecodet, alles darunter noch vom alten projekt
+.projektrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    flex: 20%;
+    background-color: #cfd1ed;
+    gap: 30px;
+}
+
+.projektrow a {
+    color: black;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px; 
+}
+
+.projektrow a:hover {
+    color: #ebebf1;
+    background-color: #29648A;
+}
+  
+.projektmainrow {
+    flex: 80%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ebebf1;
+    padding: 40px;
+}
+
+.projektmainrow p {
+    padding-bottom: 15px;
+}
+
+.contactrow {
+    flex: 20%;
+    background-color: #cfd1ed;
+    padding: 40px;
+}
+
+.contactrow a {
+    color: #8f3ba3;
+    text-decoration: none;
+}
+
+.contactmainrow {
+    flex: 80%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ebebf1;
+    padding: 40px;
+}
+
+.contactmainrow p {
+    padding-bottom: 15px;
+}
+
+li {
+    padding: 15px;
+    list-style-type: none;
+}
+
+*/
+
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    max-height: 15vh;
+    min-height: 7vh;
+    background: #e7e0cf;
+    font-size: 16px;
+    padding: 15px;
+    margin: 2.5px 0px 0px;
+}
+
+.footer a {
+    color: black;
+    background-color: rgb(222, 189, 133);
+    text-decoration: none;
+    text-align: center;
+    padding: 14px; 
+}
+
+.footer a:hover {
+    color: #ffffff;
+    background-color: rgb(103, 171, 90);
+}
